@@ -56,3 +56,98 @@ p{
 }
 
 /*Default styles end here*/
+
+/* Navigation styling */
+.navbar {
+	background-color: #2222220 !important;
+	text-transform: uppsercase;
+	font-weight: 300;
+	margin-bottom: -2px;
+	border-bottom: 2px solid #2222220;
+}
+
+.navbar a:hover {
+	border-bottom: solid 2px #D34747
+}
+
+@media(max-width: 768px){
+	.navbar a:hover{
+		border-bottom: none;
+	}
+}
+
+/* login box css begins here */
+
+#login-dp{
+	min-width: 250px;
+	padding: 14px 14px 0;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.8);
+}
+
+b{
+	font-weight: 400;
+}
+#login-db .help-block{
+	font-size: 12px;
+
+}
+
+#login-dp .bottom{
+	background-color: rgba(255,255,255,0.9);
+	border-top: 1px solid #ddd;
+	clear: both;
+	padding: 14px;
+}
+
+#login-dp .social-buttons {
+	margin: 12px 0;
+}
+
+#login-dp .social-buttons a {
+	width: 49%;
+}
+
+#login-dp .form-group{
+	margin-bottom: 10px;
+}
+
+.btn-fb{
+	color: #fff;
+	background-color: #3b5998;
+}
+
+.btn-fb:hover{
+	color: #fff;
+	background-color: #496ebc;
+}
+
+.btn-tw{
+	color: #fff;
+	background-color: #55acee;
+}
+
+.btn-tw:hover{
+	background-color: #59b5fa;
+}
+#signup-btn {
+	background-color: #d34747;
+	border: 0;
+	border-radius: 0;
+	height: 2.5em;
+}
+
+.social-buttons i{
+	margin-right: 5px;
+}
+@media(max-width: 768px){
+	#login-dp{
+		background-color: inherit;
+		color: #fff;
+	}
+	#login-dp .bottom{
+		background-color: inherit;
+		border-top: 0 none;
+	}
+
+}
